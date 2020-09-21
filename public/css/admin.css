@@ -1,0 +1,58 @@
+/* GLOBAL */
+/* Muli Font */
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&display=swap");
+/* Poppins Font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Color */
+.main-color {
+  color: #1372ff;
+}
+.main-bg-color {
+  background-color: #1372ff;
+}
+/* Sidebar */
+#sidebar span {
+  display: none;
+}
+#menu-list li:hover,
+#menu-list li:hover a ion-icon {
+  color: #5c6bc0;
+  transition: ease-in-out 100;
+}
+.tu-expand-sidebar #menu-list span {
+  /* width: 8rem; */
+  display: block;
+}
+
+/* h1{
+  color: rgba(78, 115, 223, 1);
+} */
+
+.top-50 {
+  top: 50%;
+}
+.left-50 {
+  left: 50%;
+}
+
+.transform-center {
+  transform: translate(-50%, -50%);
+}
+
+/* MODAL */
+.modal {
+  transition: opacity 0.25s ease;
+}
+body.modal-active {
+  overflow-x: hidden;
+  overflow-y: visible !important;
+}
+
+.hover\:visible{
+  visibility: visible;
+}

@@ -1,0 +1,1 @@
+<h1 class="text-primary">Không có dữ liệu</h1>

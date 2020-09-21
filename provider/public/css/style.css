@@ -1,0 +1,44 @@
+#uploadHotelAvatar {
+    display: none;
+}
+.custom-file-upload {
+    cursor: pointer;
+}
+.room-image .image {
+    min-height: 249px !important;
+    max-height: 250px !important;
+}
+#to-date {
+    font-size: 0.9rem !important;
+}
+.all-hotel-image::before {
+    content: "Tất cả hình ảnh";
+    position: absolute;
+    top: -2.25rem;
+    left: 40%;
+    font-size: 2rem;
+    color: #4e73df !important;
+}
+.hotelName,
+.roomName,
+.image-gallery,
+.galHotelImage {
+    position: absolute;
+    top: 0.2rem;
+    left: 1rem;
+    z-index: 999;
+    display: none;
+}
+.image-gallery {
+    position: absolute;
+    top: 0.2rem;
+    left: 1rem;
+    z-index: 999;
+    display: block;
+}
+#booking_detail td,#booking_detail th{
+    font-size: 0.8125rem;
+    
+}
+
+/*  */

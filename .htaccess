@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+# HOMEPAGE
+# Default Homepage
+DirectoryIndex index.php?controller=home&action=show
+# Homepage Url
+RewriteRule ^home\.html$ index.php?controller=home&action=show
+RewriteRule ^ajax\.html$ index.php?controller=ajax&action=show

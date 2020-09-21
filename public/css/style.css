@@ -1,0 +1,223 @@
+/* GLOBAL styles */
+
+/* custom btn has primary color */
+
+.button.is-main-color {
+  background-color: #cf1717;
+  border-color: transparent;
+  color: #fff;
+}
+
+.button.is-main-color:hover,
+.button.is-main-color.is-hovered {
+  background-color: rgb(209, 86, 86);
+  border-color: transparent;
+  color: #fff;
+}
+
+.button.is-main-color:focus,
+.button.is-main-color.is-focused {
+  border-color: transparent;
+  color: #fff;
+}
+
+.button.is-main-color:focus:not(:active),
+.button.is-main-color.is-focused:not(:active) {
+  box-shadow: 0 0 0 0.125em rgba(0, 209, 178, 0.25);
+}
+
+.button.is-main-color:active,
+.button.is-main-color.is-active {
+  background-color: #00b89c;
+  border-color: transparent;
+  color: #fff;
+}
+
+.button.is-main-color[disabled],
+fieldset[disabled] .button.is-main-color {
+  background-color: #cf1717;
+  border-color: transparent;
+  box-shadow: none;
+}
+
+.button.is-main-color.is-inverted {
+  background-color: #fff;
+  color: #cf1717;
+}
+
+.button.is-main-color.is-inverted:hover,
+.button.is-main-color.is-inverted.is-hovered {
+  background-color: #f2f2f2;
+}
+
+.button.is-main-color.is-inverted[disabled],
+fieldset[disabled] .button.is-main-color.is-inverted {
+  background-color: #fff;
+  border-color: transparent;
+  box-shadow: none;
+  color: #cf1717;
+}
+
+.button.is-main-color.is-loading::after {
+  border-color: transparent transparent #fff #fff !important;
+}
+
+.button.is-main-color.is-outlined {
+  background-color: transparent;
+  border-color: #cf1717;
+  color: #cf1717;
+}
+
+.button.is-main-color.is-outlined:hover,
+.button.is-main-color.is-outlined.is-hovered,
+.button.is-main-color.is-outlined:focus,
+.button.is-main-color.is-outlined.is-focused {
+  background-color: #cf1717;
+  border-color: #cf1717;
+  color: #fff;
+}
+
+.button.is-main-color.is-outlined.is-loading::after {
+  border-color: transparent transparent #cf1717 #cf1717 !important;
+}
+
+.button.is-main-color.is-outlined.is-loading:hover::after,
+.button.is-main-color.is-outlined.is-loading.is-hovered::after,
+.button.is-main-color.is-outlined.is-loading:focus::after,
+.button.is-main-color.is-outlined.is-loading.is-focused::after {
+  border-color: transparent transparent #fff #fff !important;
+}
+
+.button.is-main-color.is-outlined[disabled],
+fieldset[disabled] .button.is-main-color.is-outlined {
+  background-color: transparent;
+  border-color: #cf1717;
+  box-shadow: none;
+  color: #cf1717;
+}
+
+.button.is-main-color.is-inverted.is-outlined {
+  background-color: transparent;
+  border-color: #fff;
+  color: #fff;
+}
+
+.button.is-main-color.is-inverted.is-outlined:hover,
+.button.is-main-color.is-inverted.is-outlined.is-hovered,
+.button.is-main-color.is-inverted.is-outlined:focus,
+.button.is-main-color.is-inverted.is-outlined.is-focused {
+  background-color: #fff;
+  color: #cf1717;
+}
+
+.button.is-main-color.is-inverted.is-outlined.is-loading:hover::after,
+.button.is-main-color.is-inverted.is-outlined.is-loading.is-hovered::after,
+.button.is-main-color.is-inverted.is-outlined.is-loading:focus::after,
+.button.is-main-color.is-inverted.is-outlined.is-loading.is-focused::after {
+  border-color: transparent transparent #cf1717 #cf1717 !important;
+}
+
+.button.is-main-color.is-inverted.is-outlined[disabled],
+fieldset[disabled] .button.is-main-color.is-inverted.is-outlined {
+  background-color: transparent;
+  border-color: #fff;
+  box-shadow: none;
+  color: #fff;
+}
+
+.button.is-main-color.is-light {
+  background-color: #ebfffc;
+  color: #00947e;
+}
+
+.button.is-main-color.is-light:hover,
+.button.is-main-color.is-light.is-hovered {
+  background-color: #defffa;
+  border-color: transparent;
+  color: #00947e;
+}
+
+.button.is-main-color.is-light:active,
+.button.is-main-color.is-light.is-active {
+  background-color: #d1fff8;
+  border-color: transparent;
+  color: #00947e;
+}
+
+#booking-tabs {
+  flex-direction: column;
+  border-bottom: none;
+}
+
+/* Rewrite Footer */
+
+.footer {
+  padding: 2em 0.5em;
+}
+
+.has-facebook-color {
+  color: #4064ad;
+}
+
+.has-instagram-color {
+  color: #e40024;
+}
+
+.has-twitter-color {
+  color: #1c9deb;
+}
+
+.is-red {
+  color: #971b21;
+}
+
+/* background image with full image */
+.bg-image {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #999;
+}
+
+.has-outline-1 {
+  outline: 1px black;
+}
+
+.navbar-item img {
+  max-height: 2.5em;
+}
+/* FORM SEARCH AUTOCOMPLETE */
+.frmSearch {
+  border: 1px solid #a8d4b1;
+  background-color: #c6f7d0;
+  margin: 2px 0px;
+  padding:40px;
+  border-radius:4px;
+}
+#country-list{
+  float:left;
+  list-style:none;
+  margin-top:-3px;
+  padding:0;
+  width:190px;
+  position: absolute;
+}
+#country-list li{
+  padding: 10px; 
+  background: #f0f0f0; 
+  border-bottom: #bbb9b9 1px solid;}
+#country-list li:hover{
+  background:#ece3d2;
+  cursor: pointer;
+}
+#search-box{
+  padding: 10px;
+  border: #a8d4b1 1px solid;
+  border-radius:4px;
+}
+.image img{
+  display: block;
+  max-width: 100%;
+  height: 100px;
+}

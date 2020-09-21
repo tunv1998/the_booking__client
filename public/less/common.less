@@ -1,0 +1,51 @@
+//FONT
+.tu-text-title {
+  font-family: @is-title-font;
+}
+
+.tu-bg-img {
+  background-repeat: no-repat;
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-position: center center;
+}
+
+html {
+  height: 100%;
+  overflow: scroll;
+}
+
+#suggest-place {
+  .w-1\/4:hover {
+    .tu-rp-hover {
+      background-color: @is-sub-color;
+    }
+  }
+}
+
+.tu-abs-center {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.tu-abs-saleicon {
+  top: 0;
+  right: 0;
+  transform: translate(50%, -50%);
+}
+
+.h-96 {
+  height: 24rem;
+}
+.h-128{
+  height: 32rem;
+}
+
+.modal {
+  transition: opacity 0.25s ease;
+}
+body.modal-active {
+  overflow-x: hidden;
+  overflow-y: visible !important;
+}
