@@ -31,7 +31,7 @@
                         <label for="sltAvatar" class="w-32 h-16 absolute bottom-0 left-0">
                             <div class="relative w-full h-full">
                                 <ion-icon name="camera" class="text-4xl text-white z-10 top-50 left-50 transform-center absolute"></ion-icon>
-                                <input type="file" name="sltAvatar" id="sltAvatar" :multiple="multiple" :accept="accept" class="hidden" id="file">
+                                <input type="file" name="sltAvatar" id="sltAvatar" :multiple="multiple" :accept="accept" id="file" style="display:none">
                                 <!-- overlay -->
                                 <div class="w-full h-full rounded-b-full bg-gray-900 opacity-50 absolute top-0 left-0"></div>
                             </div>

@@ -38,13 +38,14 @@ $(document).ready(function () {
         var data = $(this).serialize();
         $.ajax({
             url: "./index.php?controller=ajax&action=addNewPagkage",
-            method: "POST",
+            method: "POST", 
             data: data,
+            
             success: function (data) {
                 // alert(data);
                 $('#form')[0].reset();
                 window.location = window.location;
-            }
+            }   
         });
     });
     $('#addPack').click(function (event) {

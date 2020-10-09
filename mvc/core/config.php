@@ -1,3 +1,3 @@
 <?php
-define('BASEURL', 'http://localhost/PROJECT-ONE');
+define('BASEURL', 'http://localhost/');
 ?>
